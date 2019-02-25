@@ -6,7 +6,8 @@ expose:
   config:
     exposer: Ingress
     http: true
-    tlsacme: false
+    tlsacme: true
+    path-mode: path
 
 cleanup:
   Args:
